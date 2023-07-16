@@ -68,7 +68,7 @@ function Arena({ isBonus }: { isBonus?: boolean }) {
                   delay: 0.75,
                 },
               }}
-              className="absolute bottom-[5%] md:bottom-[33.33%] left-[50%] transform translate-x-[-50%] flex flex-col justify-center mx-auto items-center"
+              className="absolute bottom-0 md:bottom-[33.33%] left-[50%] transform translate-x-[-50%] flex flex-col justify-center mx-auto items-center"
             >
               <p className="text-white text-6xl font-bold leading-loose whitespace-nowrap">
                 {checkResult(userChoice, houseChoice) === "win"
